@@ -1,0 +1,44 @@
+html{
+    background-color:#121212;
+}
+.Appcontainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.light {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: gray;
+    ;
+}
+.buttContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 110%;
+
+}
+button{
+    font-size: 50px;
+    background-color: rgba(169, 169, 169, 0.386);
+    border: solid white 5px;
+    border-radius: 15px;
+    transition: 0.16s;
+    
+}
+button:hover{
+    font-size: 50px;
+    background-color: rgba(169, 169, 169, 0.228);
+    border: solid white 5px;
+    border-radius: 15px;
+    transition: 0.16s;
+
+}
+button:active{
+    font-size: 50px;
+    background-color: rgba(169, 169, 169, 0.036);
+    border: solid white 5px;
+    border-radius: 15px;
+
+}
